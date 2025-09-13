@@ -18,7 +18,7 @@ pipeline {
       steps { echo 'Task: Deploy staging | Tool: Docker' }
     }
     stage('Stage 6: Staging Tests') {
-      steps { echo 'Task: Integration test | Tool: Postman' }
+      steps { echo 'Task: Integration test2 | Tool: Postman' }
     }
     stage('Stage 7: Deploy to Production') {
       steps { echo 'Task: Deploy prod | Tool: Kubernetes' }
